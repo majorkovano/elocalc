@@ -2,11 +2,10 @@
 #include <filesystem>
 #include <queue>
 
-#include "calculator.h"
-#include "elobase.h"
+#include "calc.h"
 #include "elostore.h"
-#include "mainui.h"
-#include "tools.h"
+#include "ui.h"
+#include "common.h"
 
 using namespace std;
 namespace fs = std::filesystem;

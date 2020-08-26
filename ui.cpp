@@ -1,4 +1,4 @@
-#include "mainui.h"
+#include "ui.h"
 #include <iostream>
 
 using namespace std;

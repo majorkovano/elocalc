@@ -1,5 +1,5 @@
-#ifndef ELOBASE
-#define ELOBASE
+#ifndef CALC
+#define CALC
 
 extern float Ra, Rb; // rating of players (a, b)
 const int K = 32; // elo calculation parameter
@@ -11,5 +11,7 @@ float Probability(const int& rating1, const int& rating2);
 // K is a constant(maximum elo increase).
 // d determines whether Player A wins or Player B.
 void EloRating();
+
+void calculator();
 
 #endif
