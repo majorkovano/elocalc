@@ -3,7 +3,7 @@ CFLAGS = -std=c++17
 LDFLAGS = -lstdc++ -lm
 PREFIX = /usr/local
 
-SRC = main.cpp calc.cpp elostore.cpp ui.cpp common.cpp
+SRC = main.cpp elostore.cpp
 OBJ = ${SRC:.cpp=.o}
 
 all: elocalc
